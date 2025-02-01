@@ -1,0 +1,114 @@
+body{
+	background-color: black;
+}
+#top_page{
+	background-color: blue;
+	width:100%;
+	height: 150px;
+}
+
+#top_page img{
+	float: left;
+	max-width: 15%;
+	max-height: 100px;
+}
+
+#top_page h1{
+	float:middle;
+	color: white;
+	font-size: 50px;
+	font-family: "Lucida Console", Copperplate, Garamond;
+}
+
+.link_menu{
+	background-color:BlueViolet;
+	padding-top:10px;
+	width: 100%;
+	float: middle;
+}
+
+.link_menu button{
+	width: 30%;
+	background-color: BlueViolet;
+	border-style: groove;
+	border-color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	display:inline-block;
+}
+
+.link_menu a{
+	color: white;
+	text-decoration:underline dotted white;
+	display:block;
+}
+
+footer{
+	background-color:blue;
+	color: white;
+	font-size: 10px;
+	height: 200px;
+}
+
+footer a{
+	color: white;
+	text-decoration: underline dotted white;
+}
+
+#copyright_info{
+	float:left;
+	padding-left: 20px;
+}
+
+#contactdetails{
+	float:right;
+	padding-right: 20px;
+}
+
+#main_body{
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 1250px;
+}
+
+.maintext{
+	background-color: whitesmoke;
+	height: 294px;
+	float: left;
+	max-width: 1250px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	border-style: solid;
+	border-color: black;
+	border-width: 10px;
+}
+
+#main_body img{
+	float: right;
+	width: 560px;
+	height: 330px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#main_body h1{
+	color:white;
+}
+
+#donate_body{
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: whitesmoke;
+}
+
+.donatetext{
+	background-color: whitesmoke;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: black;
+}
+
+#quote{
+	font-style: italic;
+}
