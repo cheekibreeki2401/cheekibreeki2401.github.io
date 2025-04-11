@@ -1,0 +1,294 @@
+/*
+ * Author: Kyle Everett
+ * Date: 10/03/2025
+ * File Name: styles.css
+ */
+body, header, nav, main, footer, h1, div, img, ul{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+	background-color: skyblue;
+}
+
+header{
+	padding: 20px;
+}
+
+header img{
+	width: 1850px;
+	height: 500px;
+}
+
+nav{
+	position: -webkit-sticky;
+	position: sticky;
+	top: -5px;
+	padding-left: 5%
+}
+
+nav p{
+	float: left;
+	display: inline-block;
+	padding: 0 13% 5px 15%;
+	background-color: whitesmoke;
+	margin: 5px 5px 5px 5px;
+	border: double;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+}
+
+main{
+	clear: left;
+	margin: 1% 2%;
+}
+
+main h1{
+	padding-top: 2%;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 4em;
+}
+
+main h2{
+	font-size: 2em;
+	font-style: italic;
+}
+
+main div{
+	background-image: linear-gradient(to right, rgba(245, 245, 245, 0), rgba(245,245,245,1));
+	border: solid;
+	margin-top: 2em;
+}
+
+
+#announcement{
+	padding-top: 2em;
+	padding-left: 2%;
+	padding-bottom: 1em;
+	background: whitesmoke;
+	border: dashed;
+}
+
+#announcement li{
+	font-size: 2em;
+}
+
+#intro{
+	height: 500px;
+}
+
+#intro img{
+	float: left;
+	display: inline-block;
+	width: 750px;
+	height: 250px;
+}
+
+main div  p{
+	font-size: 1.5em;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+main img{
+	border: solid
+}
+
+#family{
+	clear: left;
+	height: 500px;
+}
+
+#family img{
+	float: right;
+	width: 750px;
+	height: 250px;
+}
+
+#staff_main{
+	clear: right;
+	height: 500px;
+}
+
+#staff_main img{
+	float: left;
+	width: 750px;
+	height: 250px;
+}
+
+#opening_hours{
+	clear: left;
+	font-size: 1.5em;
+}
+
+#opening_hours ul{
+	margin-left: 2%
+}
+
+footer{
+	display: inline;
+	font-size: 0.75em;
+	text-align: center;
+}
+
+footer p{
+	float: left;
+	margin-left: 5px;
+}
+
+#promise{
+	height: 450px;	
+}
+
+#promise img{
+	float: left;
+	height: 250px;
+	width: 750px;
+}
+
+#treatment{
+	clear: left;
+	height: 450px;
+}
+
+#treatment img{
+	float: right;
+	width: 750px;
+	height: 250px;
+}
+
+#staff_about{
+	clear: right;
+	height: 700px;
+}
+
+#staff_about img{
+	float: left;
+	height: 457px;
+	width: 548px;
+}
+
+#treatment_list img{
+	height: 400px;
+	width: 1830px;
+
+}
+
+#treatment_list ul{
+	margin-left: 2em;
+	font-size: 1.25em;
+	font-style: italic;
+}
+
+#drG{
+	height: 700px;
+}
+
+#drG img{
+	float: left;
+}
+
+#drS{
+	clear: left;
+	height: 700px;
+}
+
+#drS img{
+	float: right;
+}
+
+#drC{
+	clear: right;
+	height: 700px;
+}
+
+#drC img{
+	float: left;
+}
+
+#richard{
+	clear: left;
+	height: 700px;
+}
+
+#richard img{
+	float: right;
+}
+
+#kepner{
+	clear: right;
+	height: 700px;
+}
+
+#kepner img{
+	float: left;
+}
+
+#articles img{
+	width: 1830px;
+	height: 500px;
+}
+
+.booking{
+	background-color: green;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: initial;
+	font-size: 32px;
+	margin: 15px 15px;
+	padding: 15px 15px;
+}
+
+.booking:hover{
+	background-color: whitesmoke;
+	color: black;
+	cursor: pointer;
+}
+
+fieldset, input, select{
+	margin-bottom: 2%;
+}
+
+fieldset legend{
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+label{
+	clear: left;
+	display: block;
+	padding-top: 3%;
+}
+
+input{
+	display: block;
+	width: 500px;
+}
+
+select{
+	max-height: 150px;
+}
+
+form #submit{
+	margin: 0 auto;
+	border: none;
+	display: block;
+	padding: 2%;
+	background-color: green;
+	font-size: 1em;
+	border-radius: 10px;
+}
+
+form #submit:hover{
+	background-color: whitesmoke;
+	color: black;
+	cursor: pointer;
+}
